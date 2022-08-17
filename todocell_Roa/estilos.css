@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(209, 209, 214);
+}
+h1{
+    /* display: inline-block; */
+        /* background-color: #008B74; */
+        position: absolute;
+        color: white;
+    /* text-align: center; */
+        left: 50%;
+        font-size: 40px;
+        font-style: italic;
+    
+}
+
+h3{
+        color: #1e1c1cfe;
+}
+/* section{
+    background-color: rgb(241, 103, 103);
+} */
+#menu {
+        background:#4D8076;
+        width: 450px;
+        height: 50px;
+        margin-top: 2%;
+        /* margin-left: 2%; */
+    /* margin: auto; */
+    /* position: fixed; */
+    }
+
+#menu ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #menu ul li{
+        float: left;
+    }
+
+    #menu a {
+        color: aliceblue;
+        text-decoration: none;
+        display: block;
+        padding: 12px 26px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+    }
+
+    #menu a:hover{
+        color:rgb(0, 255, 123);
+        background: rgb(6, 81, 67);
+
+    }
+    h3{
+        color: #008B74;
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #marcas{
+        /* float: left; */
+        background:rgb(180, 237, 212) ;
+        width: 80px ;
+        height:auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #marcas a{
+        /* list-style: none; */
+        color: rgb(2, 2, 2);
+        text-decoration: none;
+        display:inline-block;
+        padding: 0px 0px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+
+    }
+    iframe{ 
+        margin-top: 10px;
+    }
+
+    .footer{ background-color: rgb(185, 185, 189);
+    width: 205px;
+    margin-top: 50px;
+    float:right;
+    }
+
+    .encabezado{
+        position: relative;
+            /* margin-top: 1%; */
+        background-color: #74f49e;
+        text-align: center;
+    }
+        .encabezado #android{
+        position: absolute;
+        left: 30%;
+    }
+
+    .encabezado #manzana{
+        position: absolute;
+        left: 80%;
+        }
+
+    .buscar{
+        position: absolute;
+        right: 0;
+        padding: 25px 35px;
+    }
+
+    #boton{
+        padding: 8px 10px;
+        border-radius: 10px;
+    }
+
+    #texto{
+        padding: 8px 10px;
+    }
+
+    header{
+        background-color: #67f3cd;
+    }
+    table{
+        border: 1px solid #000;
+        background-color: rgb(254, 149, 149);
+        padding: 5px;
+        border-width: 5px;
+        border-style:dashed;
+        border-color: rgb(197, 29, 29);
+        margin: 50px auto;
+        text-align: center;
+    }
+    #mapa{
+        padding: 5px;
+        margin: 50px auto;
+    }
+    /* ------------------------------------------------------------------- */
+    /* index samsung */
+    #nombreMarca{
+        color: black;
+        text-align: center;
+        font-size: 50px;
+    }
+    .nombreCel{
+        color: rgb(72, 64, 64);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .caracteristicas{
+        color: rgb(68, 2, 130);
+        list-style: none;
+        }
+    /* .historiaSamsung{
+        float: right;
+        height: 200px;
+        width: 250px;
+        background-color: rgb(156, 145, 145);
+        overflow: auto;
+    } */
+    .grid-layout{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .flexContainer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .cajaSamsung{
+        width: 20%;
+        height: 400px;
+        /* display: inline-block; */
+        margin: 10px;
+        background-color: #ccc; 
+        border: 1px solid black;
+        text-align: center;
+        overflow: hidden;
+        border-radius: 10px;
+        /* width: 150px;
+        height: 150px;
+        border: 4px solid black ;
+        margin: 15px;*/
+    }
+    .imagenEfecto{
+        cursor: pointer; /*poner efecto de manito */
+        /* transform: scale(1.3); */
+    }
+    .imagenEfecto:hover {
+        transform: scale(1.3);
+        transition: all 500ms ease-out;
+    }
+    /* motorola */
+    .cajaMotorola{
+        width: 20%;
+        height: 400px;
+        /* display: inline-block; */
+        margin: 10px;
+        background-color: #ccc; 
+        border: 1px solid black;
+        text-align: center;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    .cajaLg{
+        width: 20%;
+        height: 400px;
+        /* display: inline-block; */
+        margin: 10px;
+        background-color: #ccc; 
+        border: 1px solid black;
+        text-align: center;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    .cajaIphone{
+        width: 20%;
+        height: 400px;
+        /* display: inline-block; */
+        margin: 10px;
+        background-color: #ccc; 
+        border: 1px solid black;
+        text-align: center;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    li .samsung{
+        font-size: 60px;
+    }
+    .grid-container{
+        display: grid;
+        background-color: #3bb6a1;
+        justify-content: center;
+        grid-template-columns: auto auto auto auto;
+    }
+    .grid-container div{
+        background-color: #74f49e;
+        border: 1px solid black;
+        }
+
+/* ------------------------------------------------------------------------ */
+
+.grid-contenedor{
+    display: grid;
+    grid-template-areas:
+    "header header header header"
+    "marcas marcas marcas marcas"
+    "main   main   main   main" 
+    "footer footer footer footer";
+    border: 1px solid black;
+}
+
+header {
+    grid-area: header;
+    border: 1px solid black;
+}
+.marcas {
+    grid-area: marcas;
+    border: 1px solid black;
+}
+main{
+    grid-area: main;
+    border: 1px solid black;
+}
+footer{
+    grid-area: footer;
+    border: 1px solid black;
+}
+.flex-contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flex-contenedor1{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:767px) {
+    .grid-contenedor{
+        grid-template-areas:
+        "header header"
+        "marcas marcas"
+        "main   main" 
+        "footer footer";
+    }
+}
+@media (max-width:390px) {
+    #menu {
+        float: left;
+        padding-left: 0;
+    }
+}
+@media (max-width:664px) {
+    .flex-contenedor1{
+        justify-content: flex-start;
+    }
+}      
