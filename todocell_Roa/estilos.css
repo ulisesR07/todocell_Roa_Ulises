@@ -279,6 +279,7 @@ footer{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+    background-image: linear-gradient(to top,black,rgb(209, 209, 214));
 }
 .flex-contenedor1{
     display: flex;
