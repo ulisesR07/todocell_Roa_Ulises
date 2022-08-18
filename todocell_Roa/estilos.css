@@ -143,9 +143,28 @@ h3{
     /* ------------------------------------------------------------------- */
     /* index samsung */
     #nombreMarca{
-        color: black;
+        /* color: black;
         text-align: center;
-        font-size: 50px;
+        font-size: 50px; */
+        font-size: 60px;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        color: seagreen;
+        text-shadow: 5px 5px 5px #ccc;
+        animation-duration: 2s;
+        animation-name:aparecer;
+        animation-delay:5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+    }
+    @keyframes aparecer{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
     }
     .nombreCel{
         color: rgb(72, 64, 64);
